@@ -12,6 +12,6 @@ import retrofit2.http.Query
 interface PlaceService {
 //    @GET("test.json?token=${BaseApplication.TOKEN}&lang=zh_CH")
 //    fun searchPlaces(@Query("query") query: String): Call<PlaceResponse>
-    @GET("test.json")
+    @GET("searchPlaces.json")
     fun searchPlaces(): Call<PlaceResponse>
 }

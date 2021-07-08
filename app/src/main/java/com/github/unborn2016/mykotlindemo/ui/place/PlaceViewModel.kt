@@ -5,6 +5,7 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.github.unborn2016.mykotlindemo.logic.Repository
 import com.github.unborn2016.mykotlindemo.logic.model.Place
+import com.github.unborn2016.mykotlindemo.logic.model.PlaceResponse
 
 /**
  * Created by Unborn on 2021/7/7.
